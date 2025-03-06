@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom logo styling */
+.logo {
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* Custom spin animation class */
+.animate-spin-slow {
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Fade-in animation for suggestions */
+.animate-fadeIn {
+  animation: fadeIn 0.2s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Override suggestions list style to ensure it sits above other content */
+ul {
+  position: relative;
+  z-index: 10;
+}
+
+/* Scrollbar styling */
+ul::-webkit-scrollbar {
+  width: 8px;
+}
+
+ul::-webkit-scrollbar-thumb {
+  background-color: #a0aec0;
+  border-radius: 4px;
+}
+
+ul::-webkit-scrollbar-thumb:dark {
+  background-color: #4a5568;
+}
+
+ul::-webkit-scrollbar-track {
+  background: #edf2f7;
+}
+
+ul::-webkit-scrollbar-track:dark {
+  background: #2d3748;
+}
