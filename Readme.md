@@ -1,7 +1,3 @@
-Here’s an updated `README.md` without mentioning the backend specifics, focusing solely on the frontend and providing instructions to replace headers if the API integration stops working.
-
----
-
 # Searchify - Real-Time Search Suggestion Interface
 
 **Searchify** is a web application that provides real-time search suggestions from the Zepto API. Built with React, TypeScript, and Tailwind CSS, it offers a responsive, user-friendly interface with performance optimizations and bonus features like dark mode and voice input.
