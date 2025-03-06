@@ -40,13 +40,9 @@
 ## Project Structure
 
 ```
-searchify/
-├── src/
-│   ├── App.tsx       # Main React component
-│   ├── index.css     # Tailwind CSS custom styles
-│   └── index.tsx     # Entry point
-├── package.json      # Frontend dependencies
-├── tsconfig.json     # TypeScript configuration
+assigment-node/
+├── frontend/
+├── backend/
 ├── README.md         # This file
 ```
 
@@ -56,8 +52,8 @@ searchify/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/searchify.git
-   cd searchify
+   git clone https://github.com/garvitx/assigment-node.git
+   cd frontend
    ```
 
 2. **Install Dependencies**
@@ -67,9 +63,16 @@ searchify/
 
 3. **Start the Development Server**
    ```bash
-   npm start
+   npm run dev
    ```
    Open your browser to `http://localhost:3000`.
+3. **Start the Development Server**
+   ```bash
+   cd backend
+   npm start
+   ```
+   Your backend is running at `http://localhost:4000`.
+
 
 #### `package.json` (Example)
 ```json
